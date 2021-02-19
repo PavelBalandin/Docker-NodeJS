@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  web-api:
+    build: api/
+    ports:
+      - "3000:3000"
+  web-proxy:
+    build: proxy/
+    ports:
+      - "3001:3001"

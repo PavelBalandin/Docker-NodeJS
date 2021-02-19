@@ -1,0 +1,4 @@
+api/node_modules
+proxy/node_modules
+/node_modules
+.idea/
